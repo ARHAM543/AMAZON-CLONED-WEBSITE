@@ -1,0 +1,222 @@
+*{
+  margin: 0px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+
+
+.navbar{
+height: 58px;
+background-color: #0f1111;
+display: flex;
+justify-content: space-evenly;
+}
+
+/* logo */
+
+.logomain{
+  margin-left: 0.2px;
+  height: 50px;
+  width: 113px;
+}
+.border:hover{
+  border: 1px solid white;
+  border-radius: 2px;
+
+}
+
+.logo{
+  height: 50px;
+  width: 113px;
+  
+  background-image: url("amazon_logo.png");
+  background-size: cover;
+}
+
+/* address */
+.address{
+  height: 50px;
+}
+
+.location1
+{
+color: white;
+margin-top: 10px;
+}
+
+.location2{
+  color: white;
+  margin-left: 4px;
+}
+
+
+.address{
+  align-items: center;
+  display: flex;
+}
+
+/* search section */
+
+.search
+{
+  margin-top: 8px;
+  height:40px;
+  width: 850px;
+  background-color: rgb(233, 152, 2);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 4px;
+}
+.selection
+{
+  height: 40px;
+  width: 45px;
+  background-color: #CCCCCC;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding: 2px;
+}
+.bar
+{
+  height: 37px;
+  width: 100%;
+  border: none;
+
+}
+.button{
+ display: flex;
+  width: 45px;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  
+}
+/* account */
+.signin
+{
+ height: 50px;
+ /* width: 151px; */
+  color: white;
+ text-align: center;
+align-items: center;
+
+
+}
+
+.accounts{
+  padding-top: 6px;
+}
+
+/* cart */
+
+.cart i{
+  margin-top: 8px;
+font-size: 30px;
+}
+
+
+/* PANEL */
+.panel
+{
+  height: 40px;
+  background-color: #222f3d;
+  color: white;
+  display:flex;
+  align-items: center;
+  
+}
+.panel-ops p
+{
+  display: inline;
+  margin-left: 14px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.panel-all
+{
+  margin-left: 10px;
+  font-size: 14px;
+
+}
+
+/* HERO SECTION */
+
+.hero-back
+{
+  background-image: url(hero_image.jpg);
+  height:350px;
+  background-size: cover;
+  display:flex;
+  align-items: end;
+justify-content: center;
+
+}
+
+.hero2
+{
+  height: 40px;
+  width:90%;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+/* Shop-section */
+
+.shop-section
+{
+display: flex;
+justify-content: space-evenly;
+background-color: #e2e7e6;
+}
+.box
+{
+  background-color: white;
+  height:400px;
+  width:23%;
+  /* border: 2px solid black; */
+  margin-top: 25px;
+}
+
+.box-image
+{
+  height:320px;
+background-size: cover;
+margin: 15px;
+}
+
+/* FOOTER */
+.foot-panel
+{
+  background-color: #37475a;
+  height:50px;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:13px;
+  margin-top: 25px;
+}
+.foot-panel2
+{
+  background-color: #222f3d;
+  color: white;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul{
+  margin-top: 30px;
+}
+ul a{
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color:#dddddd;
+
+}
+
